@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84298A2B2011FE7A007673CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84298A2A2011FE7A007673CF /* AppDelegate.m */; };
+		84298A2E2011FE7A007673CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84298A2D2011FE7A007673CF /* ViewController.m */; };
+		84298A312011FE7A007673CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84298A2F2011FE7A007673CF /* Main.storyboard */; };
+		84298A332011FE7A007673CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84298A322011FE7A007673CF /* Assets.xcassets */; };
+		84298A362011FE7A007673CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84298A342011FE7A007673CF /* LaunchScreen.storyboard */; };
+		84298A392011FE7A007673CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84298A382011FE7A007673CF /* main.m */; };
+		84298A432011FE7A007673CF /* Check_Oil_PriceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84298A422011FE7A007673CF /* Check_Oil_PriceTests.m */; };
+		84298A4E2011FE7A007673CF /* Check_Oil_PriceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84298A4D2011FE7A007673CF /* Check_Oil_PriceUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84298A3F2011FE7A007673CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84298A1E2011FE7A007673CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84298A252011FE7A007673CF;
+			remoteInfo = "Check Oil Price";
+		};
+		84298A4A2011FE7A007673CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84298A1E2011FE7A007673CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84298A252011FE7A007673CF;
+			remoteInfo = "Check Oil Price";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84298A262011FE7A007673CF /* Check Oil Price.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Check Oil Price.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84298A292011FE7A007673CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84298A2A2011FE7A007673CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84298A2C2011FE7A007673CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84298A2D2011FE7A007673CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84298A302011FE7A007673CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84298A322011FE7A007673CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84298A352011FE7A007673CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84298A372011FE7A007673CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84298A382011FE7A007673CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84298A3E2011FE7A007673CF /* Check Oil PriceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Check Oil PriceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84298A422011FE7A007673CF /* Check_Oil_PriceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Check_Oil_PriceTests.m; sourceTree = "<group>"; };
+		84298A442011FE7A007673CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84298A492011FE7A007673CF /* Check Oil PriceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Check Oil PriceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84298A4D2011FE7A007673CF /* Check_Oil_PriceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Check_Oil_PriceUITests.m; sourceTree = "<group>"; };
+		84298A4F2011FE7A007673CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84298A232011FE7A007673CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84298A3B2011FE7A007673CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84298A462011FE7A007673CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84298A1D2011FE7A007673CF = {
+			isa = PBXGroup;
+			children = (
+				84298A282011FE7A007673CF /* Check Oil Price */,
+				84298A412011FE7A007673CF /* Check Oil PriceTests */,
+				84298A4C2011FE7A007673CF /* Check Oil PriceUITests */,
+				84298A272011FE7A007673CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84298A272011FE7A007673CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84298A262011FE7A007673CF /* Check Oil Price.app */,
+				84298A3E2011FE7A007673CF /* Check Oil PriceTests.xctest */,
+				84298A492011FE7A007673CF /* Check Oil PriceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84298A282011FE7A007673CF /* Check Oil Price */ = {
+			isa = PBXGroup;
+			children = (
+				84298A292011FE7A007673CF /* AppDelegate.h */,
+				84298A2A2011FE7A007673CF /* AppDelegate.m */,
+				84298A2C2011FE7A007673CF /* ViewController.h */,
+				84298A2D2011FE7A007673CF /* ViewController.m */,
+				84298A2F2011FE7A007673CF /* Main.storyboard */,
+				84298A322011FE7A007673CF /* Assets.xcassets */,
+				84298A342011FE7A007673CF /* LaunchScreen.storyboard */,
+				84298A372011FE7A007673CF /* Info.plist */,
+				84298A382011FE7A007673CF /* main.m */,
+			);
+			path = "Check Oil Price";
+			sourceTree = "<group>";
+		};
+		84298A412011FE7A007673CF /* Check Oil PriceTests */ = {
+			isa = PBXGroup;
+			children = (
+				84298A422011FE7A007673CF /* Check_Oil_PriceTests.m */,
+				84298A442011FE7A007673CF /* Info.plist */,
+			);
+			path = "Check Oil PriceTests";
+			sourceTree = "<group>";
+		};
+		84298A4C2011FE7A007673CF /* Check Oil PriceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84298A4D2011FE7A007673CF /* Check_Oil_PriceUITests.m */,
+				84298A4F2011FE7A007673CF /* Info.plist */,
+			);
+			path = "Check Oil PriceUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84298A252011FE7A007673CF /* Check Oil Price */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84298A522011FE7A007673CF /* Build configuration list for PBXNativeTarget "Check Oil Price" */;
+			buildPhases = (
+				84298A222011FE7A007673CF /* Sources */,
+				84298A232011FE7A007673CF /* Frameworks */,
+				84298A242011FE7A007673CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Check Oil Price";
+			productName = "Check Oil Price";
+			productReference = 84298A262011FE7A007673CF /* Check Oil Price.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84298A3D2011FE7A007673CF /* Check Oil PriceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84298A552011FE7A007673CF /* Build configuration list for PBXNativeTarget "Check Oil PriceTests" */;
+			buildPhases = (
+				84298A3A2011FE7A007673CF /* Sources */,
+				84298A3B2011FE7A007673CF /* Frameworks */,
+				84298A3C2011FE7A007673CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84298A402011FE7A007673CF /* PBXTargetDependency */,
+			);
+			name = "Check Oil PriceTests";
+			productName = "Check Oil PriceTests";
+			productReference = 84298A3E2011FE7A007673CF /* Check Oil PriceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84298A482011FE7A007673CF /* Check Oil PriceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84298A582011FE7A007673CF /* Build configuration list for PBXNativeTarget "Check Oil PriceUITests" */;
+			buildPhases = (
+				84298A452011FE7A007673CF /* Sources */,
+				84298A462011FE7A007673CF /* Frameworks */,
+				84298A472011FE7A007673CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84298A4B2011FE7A007673CF /* PBXTargetDependency */,
+			);
+			name = "Check Oil PriceUITests";
+			productName = "Check Oil PriceUITests";
+			productReference = 84298A492011FE7A007673CF /* Check Oil PriceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84298A1E2011FE7A007673CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = rich_noname;
+				TargetAttributes = {
+					84298A252011FE7A007673CF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					84298A3D2011FE7A007673CF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84298A252011FE7A007673CF;
+					};
+					84298A482011FE7A007673CF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84298A252011FE7A007673CF;
+					};
+				};
+			};
+			buildConfigurationList = 84298A212011FE7A007673CF /* Build configuration list for PBXProject "Check Oil Price" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84298A1D2011FE7A007673CF;
+			productRefGroup = 84298A272011FE7A007673CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84298A252011FE7A007673CF /* Check Oil Price */,
+				84298A3D2011FE7A007673CF /* Check Oil PriceTests */,
+				84298A482011FE7A007673CF /* Check Oil PriceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84298A242011FE7A007673CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84298A362011FE7A007673CF /* LaunchScreen.storyboard in Resources */,
+				84298A332011FE7A007673CF /* Assets.xcassets in Resources */,
+				84298A312011FE7A007673CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84298A3C2011FE7A007673CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84298A472011FE7A007673CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84298A222011FE7A007673CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84298A2E2011FE7A007673CF /* ViewController.m in Sources */,
+				84298A392011FE7A007673CF /* main.m in Sources */,
+				84298A2B2011FE7A007673CF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84298A3A2011FE7A007673CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84298A432011FE7A007673CF /* Check_Oil_PriceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84298A452011FE7A007673CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84298A4E2011FE7A007673CF /* Check_Oil_PriceUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84298A402011FE7A007673CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84298A252011FE7A007673CF /* Check Oil Price */;
+			targetProxy = 84298A3F2011FE7A007673CF /* PBXContainerItemProxy */;
+		};
+		84298A4B2011FE7A007673CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84298A252011FE7A007673CF /* Check Oil Price */;
+			targetProxy = 84298A4A2011FE7A007673CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84298A2F2011FE7A007673CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84298A302011FE7A007673CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84298A342011FE7A007673CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84298A352011FE7A007673CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84298A502011FE7A007673CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84298A512011FE7A007673CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84298A532011FE7A007673CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NV5382425C;
+				INFOPLIST_FILE = "Check Oil Price/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rich-naname.Check-Oil-Price";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84298A542011FE7A007673CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NV5382425C;
+				INFOPLIST_FILE = "Check Oil Price/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rich-naname.Check-Oil-Price";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84298A562011FE7A007673CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NV5382425C;
+				INFOPLIST_FILE = "Check Oil PriceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rich-naname.Check-Oil-PriceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Check Oil Price.app/Check Oil Price";
+			};
+			name = Debug;
+		};
+		84298A572011FE7A007673CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NV5382425C;
+				INFOPLIST_FILE = "Check Oil PriceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rich-naname.Check-Oil-PriceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Check Oil Price.app/Check Oil Price";
+			};
+			name = Release;
+		};
+		84298A592011FE7A007673CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NV5382425C;
+				INFOPLIST_FILE = "Check Oil PriceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rich-naname.Check-Oil-PriceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Check Oil Price";
+			};
+			name = Debug;
+		};
+		84298A5A2011FE7A007673CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NV5382425C;
+				INFOPLIST_FILE = "Check Oil PriceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rich-naname.Check-Oil-PriceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Check Oil Price";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84298A212011FE7A007673CF /* Build configuration list for PBXProject "Check Oil Price" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84298A502011FE7A007673CF /* Debug */,
+				84298A512011FE7A007673CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84298A522011FE7A007673CF /* Build configuration list for PBXNativeTarget "Check Oil Price" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84298A532011FE7A007673CF /* Debug */,
+				84298A542011FE7A007673CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84298A552011FE7A007673CF /* Build configuration list for PBXNativeTarget "Check Oil PriceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84298A562011FE7A007673CF /* Debug */,
+				84298A572011FE7A007673CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84298A582011FE7A007673CF /* Build configuration list for PBXNativeTarget "Check Oil PriceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84298A592011FE7A007673CF /* Debug */,
+				84298A5A2011FE7A007673CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84298A1E2011FE7A007673CF /* Project object */;
+}
