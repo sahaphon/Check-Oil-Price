@@ -7,7 +7,25 @@
 		<key>Check Oil Price.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>84298A252011FE7A007673CF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>84298A3D2011FE7A007673CF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>84298A482011FE7A007673CF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

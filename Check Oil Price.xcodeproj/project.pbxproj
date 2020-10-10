@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CF35FCEEF6F95F4EE2DF133 /* Pods_Check_Oil_Price.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23079BA9057280D3A4F70C1C /* Pods_Check_Oil_Price.framework */; };
+		840006C8202212500012C8C1 /* AddTitleFixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840006C7202212500012C8C1 /* AddTitleFixViewController.m */; };
+		840006CA202214DE0012C8C1 /* back_40.png in Resources */ = {isa = PBXBuildFile; fileRef = 840006C9202214DE0012C8C1 /* back_40.png */; };
+		8428C01D201B1D78001995D2 /* fix.png in Resources */ = {isa = PBXBuildFile; fileRef = 8428C01C201B1D78001995D2 /* fix.png */; };
+		8428C01F201B1DEC001995D2 /* Fix_40.png in Resources */ = {isa = PBXBuildFile; fileRef = 8428C01E201B1DEC001995D2 /* Fix_40.png */; };
 		84298A2B2011FE7A007673CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84298A2A2011FE7A007673CF /* AppDelegate.m */; };
 		84298A2E2011FE7A007673CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84298A2D2011FE7A007673CF /* ViewController.m */; };
 		84298A312011FE7A007673CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84298A2F2011FE7A007673CF /* Main.storyboard */; };
@@ -15,6 +20,49 @@
 		84298A392011FE7A007673CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84298A382011FE7A007673CF /* main.m */; };
 		84298A432011FE7A007673CF /* Check_Oil_PriceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84298A422011FE7A007673CF /* Check_Oil_PriceTests.m */; };
 		84298A4E2011FE7A007673CF /* Check_Oil_PriceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84298A4D2011FE7A007673CF /* Check_Oil_PriceUITests.m */; };
+		84298A5F201200D4007673CF /* SMXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 84298A5E201200D4007673CF /* SMXMLDocument.m */; };
+		8429D321202EB7EE007C1683 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8429D320202EB7EE007C1683 /* SystemConfiguration.framework */; };
+		8429D324202EB89E007C1683 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8429D323202EB89E007C1683 /* Reachability.m */; };
+		842C93BE20159623002D4704 /* DS-DIGIB.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 842C93BD20159623002D4704 /* DS-DIGIB.TTF */; };
+		842C93C02015962F002D4704 /* DS-DIGI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 842C93BF2015962F002D4704 /* DS-DIGI.TTF */; };
+		842C93C3201599B7002D4704 /* DS-DIGII.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 842C93C2201599B6002D4704 /* DS-DIGII.TTF */; };
+		842C93C82015A368002D4704 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 842C93C72015A368002D4704 /* Localizable.strings */; };
+		842C93CD2015EBE0002D4704 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 842C93CC2015EBE0002D4704 /* libsqlite3.0.tbd */; };
+		8434AEE4201B826C00E81CA8 /* gas95.png in Resources */ = {isa = PBXBuildFile; fileRef = 8434AEE3201B826C00E81CA8 /* gas95.png */; };
+		8434AEE7201B839F00E81CA8 /* BangchakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8434AEE6201B839F00E81CA8 /* BangchakViewController.m */; };
+		8434AEED201B8BF300E81CA8 /* ngv2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8434AEEC201B8BF300E81CA8 /* ngv2.png */; };
+		843650B32021957C00A0CA48 /* icons8-save-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 843650B22021957C00A0CA48 /* icons8-save-20.png */; };
+		843650B52021970400A0CA48 /* icons8-cancel-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 843650B42021970400A0CA48 /* icons8-cancel-20.png */; };
+		843650B72021980B00A0CA48 /* icons8-calendar-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 843650B62021980B00A0CA48 /* icons8-calendar-20.png */; };
+		843650B9202199BC00A0CA48 /* icons8-plus-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 843650B8202199BB00A0CA48 /* icons8-plus-20.png */; };
+		843650BB20219A0C00A0CA48 /* icons8-checked-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 843650BA20219A0C00A0CA48 /* icons8-checked-20.png */; };
+		843729D1201D7A5100553040 /* Shell50.png in Resources */ = {isa = PBXBuildFile; fileRef = 843729D0201D7A5000553040 /* Shell50.png */; };
+		84376D03201A312800F976A7 /* PTT_40.png in Resources */ = {isa = PBXBuildFile; fileRef = 84376D02201A312700F976A7 /* PTT_40.png */; };
+		84376D05201A331B00F976A7 /* ptt_25.png in Resources */ = {isa = PBXBuildFile; fileRef = 84376D04201A331A00F976A7 /* ptt_25.png */; };
+		84376D07201A332000F976A7 /* bangchak_30.png in Resources */ = {isa = PBXBuildFile; fileRef = 84376D06201A332000F976A7 /* bangchak_30.png */; };
+		84376D4F201A41BA00F976A7 /* bj03.png in Resources */ = {isa = PBXBuildFile; fileRef = 84376D4E201A41BA00F976A7 /* bj03.png */; };
+		845EADF8201B05FD00031C1C /* desale_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 845EADF7201B05FC00031C1C /* desale_2.png */; };
+		845EADFA201B067600031C1C /* HyForce-Diesel.png in Resources */ = {isa = PBXBuildFile; fileRef = 845EADF9201B067500031C1C /* HyForce-Diesel.png */; };
+		845EADFC201B075500031C1C /* Gas91.png in Resources */ = {isa = PBXBuildFile; fileRef = 845EADFB201B075500031C1C /* Gas91.png */; };
+		845EADFE201B080E00031C1C /* E20_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 845EADFD201B080D00031C1C /* E20_2.png */; };
+		845EAE00201B08C100031C1C /* 95_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 845EADFF201B08C100031C1C /* 95_2.png */; };
+		845EAE02201B098300031C1C /* E85.png in Resources */ = {isa = PBXBuildFile; fileRef = 845EAE01201B098200031C1C /* E85.png */; };
+		845EAE04201B09F800031C1C /* pttlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 845EAE03201B09F700031C1C /* pttlogo.png */; };
+		8479376F201AC3C10034FD8E /* bj_200.png in Resources */ = {isa = PBXBuildFile; fileRef = 8479376E201AC3C00034FD8E /* bj_200.png */; };
+		8479377B201AC6CD0034FD8E /* logo-E20s.png in Resources */ = {isa = PBXBuildFile; fileRef = 84793774201AC6C90034FD8E /* logo-E20s.png */; };
+		8479377C201AC6CD0034FD8E /* logo-Hi-diesel.png in Resources */ = {isa = PBXBuildFile; fileRef = 84793775201AC6CA0034FD8E /* logo-Hi-diesel.png */; };
+		8479377D201AC6CD0034FD8E /* logo-Hi-premium-diesel-s.png in Resources */ = {isa = PBXBuildFile; fileRef = 84793776201AC6CB0034FD8E /* logo-Hi-premium-diesel-s.png */; };
+		8479377E201AC6CD0034FD8E /* logo-gasohol-95.png in Resources */ = {isa = PBXBuildFile; fileRef = 84793777201AC6CB0034FD8E /* logo-gasohol-95.png */; };
+		8479377F201AC6CD0034FD8E /* logo-gasohol-e85.png in Resources */ = {isa = PBXBuildFile; fileRef = 84793778201AC6CB0034FD8E /* logo-gasohol-e85.png */; };
+		84793780201AC6CD0034FD8E /* logo-gasohol-91.png in Resources */ = {isa = PBXBuildFile; fileRef = 84793779201AC6CC0034FD8E /* logo-gasohol-91.png */; };
+		848132F220203B5700C75AD5 /* MaintainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848132F120203B5700C75AD5 /* MaintainViewController.m */; };
+		848132F620203E9C00C75AD5 /* JTImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 848132F420203E9C00C75AD5 /* JTImageButton.m */; };
+		8496BCE42018540A00207602 /* sky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8496BCE32018540A00207602 /* sky.jpg */; };
+		8496BCEE2018569700207602 /* PTT.png in Resources */ = {isa = PBXBuildFile; fileRef = 8496BCED2018569700207602 /* PTT.png */; };
+		84AF179E201CE01000B8B4D3 /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF179A201CE00F00B8B4D3 /* HTMLNode.m */; };
+		84AF179F201CE01000B8B4D3 /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF179B201CE01000B8B4D3 /* HTMLParser.m */; };
+		84AF17A1201CE05000B8B4D3 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AF17A0201CE05000B8B4D3 /* libxml2.tbd */; };
+		84DDF98F20735AAC00B779F9 /* PSL030.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84DDF98E20735AAB00B779F9 /* PSL030.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +83,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		087A6AD973DF4EDCD0AEBF02 /* Pods-Check Oil Price.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Check Oil Price.release.xcconfig"; path = "Pods/Target Support Files/Pods-Check Oil Price/Pods-Check Oil Price.release.xcconfig"; sourceTree = "<group>"; };
+		23079BA9057280D3A4F70C1C /* Pods_Check_Oil_Price.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Check_Oil_Price.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		628DEC8F23B63F00B9199D93 /* Pods-Check Oil Price.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Check Oil Price.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Check Oil Price/Pods-Check Oil Price.debug.xcconfig"; sourceTree = "<group>"; };
+		840006C6202212500012C8C1 /* AddTitleFixViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddTitleFixViewController.h; sourceTree = "<group>"; };
+		840006C7202212500012C8C1 /* AddTitleFixViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddTitleFixViewController.m; sourceTree = "<group>"; };
+		840006C9202214DE0012C8C1 /* back_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_40.png; sourceTree = "<group>"; };
+		8428C01C201B1D78001995D2 /* fix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fix.png; sourceTree = "<group>"; };
+		8428C01E201B1DEC001995D2 /* Fix_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fix_40.png; sourceTree = "<group>"; };
 		84298A262011FE7A007673CF /* Check Oil Price.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Check Oil Price.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84298A292011FE7A007673CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84298A2A2011FE7A007673CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +107,56 @@
 		84298A492011FE7A007673CF /* Check Oil PriceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Check Oil PriceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84298A4D2011FE7A007673CF /* Check_Oil_PriceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Check_Oil_PriceUITests.m; sourceTree = "<group>"; };
 		84298A4F2011FE7A007673CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84298A5D201200D4007673CF /* SMXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMXMLDocument.h; sourceTree = "<group>"; };
+		84298A5E201200D4007673CF /* SMXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMXMLDocument.m; sourceTree = "<group>"; };
+		8429D320202EB7EE007C1683 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8429D322202EB89E007C1683 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		8429D323202EB89E007C1683 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		842C93BD20159623002D4704 /* DS-DIGIB.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGIB.TTF"; sourceTree = "<group>"; };
+		842C93BF2015962F002D4704 /* DS-DIGI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGI.TTF"; sourceTree = "<group>"; };
+		842C93C2201599B6002D4704 /* DS-DIGII.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGII.TTF"; sourceTree = "<group>"; };
+		842C93C72015A368002D4704 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		842C93CC2015EBE0002D4704 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		8434AEE3201B826C00E81CA8 /* gas95.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gas95.png; sourceTree = "<group>"; };
+		8434AEE5201B839F00E81CA8 /* BangchakViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BangchakViewController.h; sourceTree = "<group>"; };
+		8434AEE6201B839F00E81CA8 /* BangchakViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BangchakViewController.m; sourceTree = "<group>"; };
+		8434AEEC201B8BF300E81CA8 /* ngv2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ngv2.png; sourceTree = "<group>"; };
+		843650B22021957C00A0CA48 /* icons8-save-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-save-20.png"; sourceTree = "<group>"; };
+		843650B42021970400A0CA48 /* icons8-cancel-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-cancel-20.png"; sourceTree = "<group>"; };
+		843650B62021980B00A0CA48 /* icons8-calendar-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-calendar-20.png"; sourceTree = "<group>"; };
+		843650B8202199BB00A0CA48 /* icons8-plus-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-plus-20.png"; sourceTree = "<group>"; };
+		843650BA20219A0C00A0CA48 /* icons8-checked-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-checked-20.png"; sourceTree = "<group>"; };
+		843729D0201D7A5000553040 /* Shell50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shell50.png; sourceTree = "<group>"; };
+		84376D02201A312700F976A7 /* PTT_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PTT_40.png; sourceTree = "<group>"; };
+		84376D04201A331A00F976A7 /* ptt_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ptt_25.png; sourceTree = "<group>"; };
+		84376D06201A332000F976A7 /* bangchak_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bangchak_30.png; sourceTree = "<group>"; };
+		84376D4E201A41BA00F976A7 /* bj03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bj03.png; sourceTree = "<group>"; };
+		845EADF7201B05FC00031C1C /* desale_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = desale_2.png; sourceTree = "<group>"; };
+		845EADF9201B067500031C1C /* HyForce-Diesel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HyForce-Diesel.png"; sourceTree = "<group>"; };
+		845EADFB201B075500031C1C /* Gas91.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gas91.png; sourceTree = "<group>"; };
+		845EADFD201B080D00031C1C /* E20_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = E20_2.png; sourceTree = "<group>"; };
+		845EADFF201B08C100031C1C /* 95_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 95_2.png; sourceTree = "<group>"; };
+		845EAE01201B098200031C1C /* E85.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = E85.png; sourceTree = "<group>"; };
+		845EAE03201B09F700031C1C /* pttlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pttlogo.png; sourceTree = "<group>"; };
+		8479376E201AC3C00034FD8E /* bj_200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bj_200.png; sourceTree = "<group>"; };
+		84793774201AC6C90034FD8E /* logo-E20s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-E20s.png"; sourceTree = "<group>"; };
+		84793775201AC6CA0034FD8E /* logo-Hi-diesel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-Hi-diesel.png"; sourceTree = "<group>"; };
+		84793776201AC6CB0034FD8E /* logo-Hi-premium-diesel-s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-Hi-premium-diesel-s.png"; sourceTree = "<group>"; };
+		84793777201AC6CB0034FD8E /* logo-gasohol-95.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-gasohol-95.png"; sourceTree = "<group>"; };
+		84793778201AC6CB0034FD8E /* logo-gasohol-e85.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-gasohol-e85.png"; sourceTree = "<group>"; };
+		84793779201AC6CC0034FD8E /* logo-gasohol-91.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-gasohol-91.png"; sourceTree = "<group>"; };
+		848132F020203B5700C75AD5 /* MaintainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaintainViewController.h; sourceTree = "<group>"; };
+		848132F120203B5700C75AD5 /* MaintainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaintainViewController.m; sourceTree = "<group>"; };
+		848132F420203E9C00C75AD5 /* JTImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTImageButton.m; sourceTree = "<group>"; };
+		848132F520203E9C00C75AD5 /* JTImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTImageButton.h; sourceTree = "<group>"; };
+		8496BCE32018540A00207602 /* sky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sky.jpg; sourceTree = "<group>"; };
+		8496BCED2018569700207602 /* PTT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PTT.png; sourceTree = "<group>"; };
+		84AF179A201CE00F00B8B4D3 /* HTMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLNode.m; sourceTree = "<group>"; };
+		84AF179B201CE01000B8B4D3 /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLParser.m; sourceTree = "<group>"; };
+		84AF179C201CE01000B8B4D3 /* HTMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLNode.h; sourceTree = "<group>"; };
+		84AF179D201CE01000B8B4D3 /* HTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLParser.h; sourceTree = "<group>"; };
+		84AF17A0201CE05000B8B4D3 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		84DDF98E20735AAB00B779F9 /* PSL030.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PSL030.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +164,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8429D321202EB7EE007C1683 /* SystemConfiguration.framework in Frameworks */,
+				84AF17A1201CE05000B8B4D3 /* libxml2.tbd in Frameworks */,
+				842C93CD2015EBE0002D4704 /* libsqlite3.0.tbd in Frameworks */,
+				3CF35FCEEF6F95F4EE2DF133 /* Pods_Check_Oil_Price.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +191,19 @@
 		84298A1D2011FE7A007673CF = {
 			isa = PBXGroup;
 			children = (
+				848132F320203E9C00C75AD5 /* JTImageButton */,
+				84AF1799201CDFD800B8B4D3 /* Html Parse */,
+				84793772201AC6AC0034FD8E /* bangchak */,
+				842C93C72015A368002D4704 /* Localizable.strings */,
+				842C93C12015975E002D4704 /* Font */,
+				84298A5C201200BD007673CF /* SMXMLDocument */,
+				84298A5B2011FEBE007673CF /* images */,
 				84298A282011FE7A007673CF /* Check Oil Price */,
 				84298A412011FE7A007673CF /* Check Oil PriceTests */,
 				84298A4C2011FE7A007673CF /* Check Oil PriceUITests */,
 				84298A272011FE7A007673CF /* Products */,
+				842C93CB2015EBE0002D4704 /* Frameworks */,
+				87D5997C069BB8E5100C7C57 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,8 +222,16 @@
 			children = (
 				84298A292011FE7A007673CF /* AppDelegate.h */,
 				84298A2A2011FE7A007673CF /* AppDelegate.m */,
+				8429D322202EB89E007C1683 /* Reachability.h */,
+				8429D323202EB89E007C1683 /* Reachability.m */,
 				84298A2C2011FE7A007673CF /* ViewController.h */,
 				84298A2D2011FE7A007673CF /* ViewController.m */,
+				8434AEE5201B839F00E81CA8 /* BangchakViewController.h */,
+				8434AEE6201B839F00E81CA8 /* BangchakViewController.m */,
+				848132F020203B5700C75AD5 /* MaintainViewController.h */,
+				848132F120203B5700C75AD5 /* MaintainViewController.m */,
+				840006C6202212500012C8C1 /* AddTitleFixViewController.h */,
+				840006C7202212500012C8C1 /* AddTitleFixViewController.m */,
 				84298A2F2011FE7A007673CF /* Main.storyboard */,
 				84298A322011FE7A007673CF /* Assets.xcassets */,
 				84298A342011FE7A007673CF /* LaunchScreen.storyboard */,
@@ -132,6 +259,111 @@
 			path = "Check Oil PriceUITests";
 			sourceTree = "<group>";
 		};
+		84298A5B2011FEBE007673CF /* images */ = {
+			isa = PBXGroup;
+			children = (
+				840006C9202214DE0012C8C1 /* back_40.png */,
+				843650BA20219A0C00A0CA48 /* icons8-checked-20.png */,
+				843650B8202199BB00A0CA48 /* icons8-plus-20.png */,
+				843650B62021980B00A0CA48 /* icons8-calendar-20.png */,
+				843650B42021970400A0CA48 /* icons8-cancel-20.png */,
+				843650B22021957C00A0CA48 /* icons8-save-20.png */,
+				843729D0201D7A5000553040 /* Shell50.png */,
+				8434AEE3201B826C00E81CA8 /* gas95.png */,
+				845EAE03201B09F700031C1C /* pttlogo.png */,
+				845EAE01201B098200031C1C /* E85.png */,
+				845EADFF201B08C100031C1C /* 95_2.png */,
+				845EADFD201B080D00031C1C /* E20_2.png */,
+				845EADFB201B075500031C1C /* Gas91.png */,
+				845EADF9201B067500031C1C /* HyForce-Diesel.png */,
+				845EADF7201B05FC00031C1C /* desale_2.png */,
+				8479376E201AC3C00034FD8E /* bj_200.png */,
+				8496BCE32018540A00207602 /* sky.jpg */,
+				8496BCED2018569700207602 /* PTT.png */,
+				84376D02201A312700F976A7 /* PTT_40.png */,
+				84376D4E201A41BA00F976A7 /* bj03.png */,
+				84376D06201A332000F976A7 /* bangchak_30.png */,
+				84376D04201A331A00F976A7 /* ptt_25.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		84298A5C201200BD007673CF /* SMXMLDocument */ = {
+			isa = PBXGroup;
+			children = (
+				84298A5D201200D4007673CF /* SMXMLDocument.h */,
+				84298A5E201200D4007673CF /* SMXMLDocument.m */,
+			);
+			path = SMXMLDocument;
+			sourceTree = "<group>";
+		};
+		842C93C12015975E002D4704 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				84DDF98E20735AAB00B779F9 /* PSL030.ttf */,
+				842C93BF2015962F002D4704 /* DS-DIGI.TTF */,
+				842C93C2201599B6002D4704 /* DS-DIGII.TTF */,
+				842C93BD20159623002D4704 /* DS-DIGIB.TTF */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		842C93CB2015EBE0002D4704 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8429D320202EB7EE007C1683 /* SystemConfiguration.framework */,
+				84AF17A0201CE05000B8B4D3 /* libxml2.tbd */,
+				842C93CC2015EBE0002D4704 /* libsqlite3.0.tbd */,
+				23079BA9057280D3A4F70C1C /* Pods_Check_Oil_Price.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84793772201AC6AC0034FD8E /* bangchak */ = {
+			isa = PBXGroup;
+			children = (
+				8434AEEC201B8BF300E81CA8 /* ngv2.png */,
+				8428C01E201B1DEC001995D2 /* Fix_40.png */,
+				8428C01C201B1D78001995D2 /* fix.png */,
+				84793774201AC6C90034FD8E /* logo-E20s.png */,
+				84793779201AC6CC0034FD8E /* logo-gasohol-91.png */,
+				84793777201AC6CB0034FD8E /* logo-gasohol-95.png */,
+				84793778201AC6CB0034FD8E /* logo-gasohol-e85.png */,
+				84793775201AC6CA0034FD8E /* logo-Hi-diesel.png */,
+				84793776201AC6CB0034FD8E /* logo-Hi-premium-diesel-s.png */,
+			);
+			path = bangchak;
+			sourceTree = "<group>";
+		};
+		848132F320203E9C00C75AD5 /* JTImageButton */ = {
+			isa = PBXGroup;
+			children = (
+				848132F420203E9C00C75AD5 /* JTImageButton.m */,
+				848132F520203E9C00C75AD5 /* JTImageButton.h */,
+			);
+			path = JTImageButton;
+			sourceTree = "<group>";
+		};
+		84AF1799201CDFD800B8B4D3 /* Html Parse */ = {
+			isa = PBXGroup;
+			children = (
+				84AF179C201CE01000B8B4D3 /* HTMLNode.h */,
+				84AF179A201CE00F00B8B4D3 /* HTMLNode.m */,
+				84AF179D201CE01000B8B4D3 /* HTMLParser.h */,
+				84AF179B201CE01000B8B4D3 /* HTMLParser.m */,
+			);
+			path = "Html Parse";
+			sourceTree = "<group>";
+		};
+		87D5997C069BB8E5100C7C57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				628DEC8F23B63F00B9199D93 /* Pods-Check Oil Price.debug.xcconfig */,
+				087A6AD973DF4EDCD0AEBF02 /* Pods-Check Oil Price.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +371,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84298A522011FE7A007673CF /* Build configuration list for PBXNativeTarget "Check Oil Price" */;
 			buildPhases = (
+				A572D5016BCFB9AB9486516D /* [CP] Check Pods Manifest.lock */,
 				84298A222011FE7A007673CF /* Sources */,
 				84298A232011FE7A007673CF /* Frameworks */,
 				84298A242011FE7A007673CF /* Resources */,
+				9A3C07BB8741D841F1F207BF /* [CP] Embed Pods Frameworks */,
+				06D34829B740A82D4F7289BC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,8 +474,44 @@
 			buildActionMask = 2147483647;
 			files = (
 				84298A362011FE7A007673CF /* LaunchScreen.storyboard in Resources */,
+				8428C01F201B1DEC001995D2 /* Fix_40.png in Resources */,
+				8479377C201AC6CD0034FD8E /* logo-Hi-diesel.png in Resources */,
+				84DDF98F20735AAC00B779F9 /* PSL030.ttf in Resources */,
+				843650B52021970400A0CA48 /* icons8-cancel-20.png in Resources */,
+				8496BCEE2018569700207602 /* PTT.png in Resources */,
+				8428C01D201B1D78001995D2 /* fix.png in Resources */,
+				845EAE02201B098300031C1C /* E85.png in Resources */,
+				845EAE04201B09F800031C1C /* pttlogo.png in Resources */,
+				8479377F201AC6CD0034FD8E /* logo-gasohol-e85.png in Resources */,
+				843650B72021980B00A0CA48 /* icons8-calendar-20.png in Resources */,
+				840006CA202214DE0012C8C1 /* back_40.png in Resources */,
+				8479377E201AC6CD0034FD8E /* logo-gasohol-95.png in Resources */,
+				845EAE00201B08C100031C1C /* 95_2.png in Resources */,
+				84376D07201A332000F976A7 /* bangchak_30.png in Resources */,
+				8479376F201AC3C10034FD8E /* bj_200.png in Resources */,
+				8479377D201AC6CD0034FD8E /* logo-Hi-premium-diesel-s.png in Resources */,
+				842C93C02015962F002D4704 /* DS-DIGI.TTF in Resources */,
+				84376D05201A331B00F976A7 /* ptt_25.png in Resources */,
+				8434AEED201B8BF300E81CA8 /* ngv2.png in Resources */,
+				8479377B201AC6CD0034FD8E /* logo-E20s.png in Resources */,
+				843650BB20219A0C00A0CA48 /* icons8-checked-20.png in Resources */,
+				845EADFC201B075500031C1C /* Gas91.png in Resources */,
+				84376D4F201A41BA00F976A7 /* bj03.png in Resources */,
 				84298A332011FE7A007673CF /* Assets.xcassets in Resources */,
+				84376D03201A312800F976A7 /* PTT_40.png in Resources */,
+				845EADFA201B067600031C1C /* HyForce-Diesel.png in Resources */,
+				845EADF8201B05FD00031C1C /* desale_2.png in Resources */,
+				845EADFE201B080E00031C1C /* E20_2.png in Resources */,
+				84793780201AC6CD0034FD8E /* logo-gasohol-91.png in Resources */,
+				842C93C3201599B7002D4704 /* DS-DIGII.TTF in Resources */,
+				842C93BE20159623002D4704 /* DS-DIGIB.TTF in Resources */,
+				843729D1201D7A5100553040 /* Shell50.png in Resources */,
+				843650B32021957C00A0CA48 /* icons8-save-20.png in Resources */,
+				842C93C82015A368002D4704 /* Localizable.strings in Resources */,
+				8434AEE4201B826C00E81CA8 /* gas95.png in Resources */,
+				843650B9202199BC00A0CA48 /* icons8-plus-20.png in Resources */,
 				84298A312011FE7A007673CF /* Main.storyboard in Resources */,
+				8496BCE42018540A00207602 /* sky.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,13 +531,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06D34829B740A82D4F7289BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Check Oil Price/Pods-Check Oil Price-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A3C07BB8741D841F1F207BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Check Oil Price/Pods-Check Oil Price-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActionSheetPicker_3_0.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Check Oil Price/Pods-Check Oil Price-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A572D5016BCFB9AB9486516D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Check Oil Price-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84298A222011FE7A007673CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8434AEE7201B839F00E81CA8 /* BangchakViewController.m in Sources */,
 				84298A2E2011FE7A007673CF /* ViewController.m in Sources */,
+				84AF179E201CE01000B8B4D3 /* HTMLNode.m in Sources */,
+				8429D324202EB89E007C1683 /* Reachability.m in Sources */,
 				84298A392011FE7A007673CF /* main.m in Sources */,
+				84298A5F201200D4007673CF /* SMXMLDocument.m in Sources */,
+				840006C8202212500012C8C1 /* AddTitleFixViewController.m in Sources */,
+				848132F620203E9C00C75AD5 /* JTImageButton.m in Sources */,
+				84AF179F201CE01000B8B4D3 /* HTMLParser.m in Sources */,
+				848132F220203B5700C75AD5 /* MaintainViewController.m in Sources */,
 				84298A2B2011FE7A007673CF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,6 +703,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -419,6 +753,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
@@ -428,29 +763,33 @@
 		};
 		84298A532011FE7A007673CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 628DEC8F23B63F00B9199D93 /* Pods-Check Oil Price.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NV5382425C;
+				DEVELOPMENT_TEAM = 77XD555ZVK;
 				INFOPLIST_FILE = "Check Oil Price/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rich-naname.Check-Oil-Price";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		84298A542011FE7A007673CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 087A6AD973DF4EDCD0AEBF02 /* Pods-Check Oil Price.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NV5382425C;
+				DEVELOPMENT_TEAM = 77XD555ZVK;
 				INFOPLIST_FILE = "Check Oil Price/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rich-naname.Check-Oil-Price";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
